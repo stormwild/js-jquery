@@ -2,7 +2,7 @@
   "name": "js-jquery",
   "version": "1.0.0",
   "description": "Short course on Javascript and jQuery",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/stormwild/js-jquery/issues"
   },
-  "homepage": "https://github.com/stormwild/js-jquery#readme"
+  "homepage": "https://github.com/stormwild/js-jquery#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
 }

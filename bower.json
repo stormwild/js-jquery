@@ -1,7 +1,7 @@
 {
   "name": "js-jquery",
   "description": "Short course on Javascript and jQuery",
-  "main": "index.js",
+  "main": "index.html",
   "authors": [
     "Alexander R. Torrijos"
   ],
@@ -17,5 +17,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
 }

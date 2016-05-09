@@ -1,4 +1,2 @@
-// styles.scss
-.testing {
-  width: percentage(5/7);
-}
+@import "common/variables.scss";
+@import "common/global.scss";

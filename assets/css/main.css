@@ -1,2 +1,14 @@
-.testing {
-  width: 71.42857%; }
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto; }
+
+body {
+  background-color: #fafafa;
+  color: #2a2a2a;
+  font: 16px/1.4 Arial, Helvetica, sans-serif;
+  padding: 1em; }

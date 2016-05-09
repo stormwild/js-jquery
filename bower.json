@@ -1,0 +1,21 @@
+{
+  "name": "js-jquery",
+  "description": "Short course on Javascript and jQuery",
+  "main": "index.js",
+  "authors": [
+    "Alexander R. Torrijos"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "jquery"
+  ],
+  "homepage": "https://github.com/stormwild/js-jquery",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -18,15 +18,18 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
+gulp.task('browserSync', function() {
+  browserSync.init({
+    port: 8082
+  })
+});
 
 gulp.task('watch', ['browserSync', 'styles'], function(){
   gulp.watch('src/scss/**/*.scss', ['styles']); 
   gulp.watch('*.html', browserSync.reload); 
   gulp.watch('assets/js/**/*.js', browserSync.reload); 
-})
+});
 
-gulp.task('browserSync', function() {
-  browserSync.init({
-    port: 8082
-  })
-})
+gulp.task('default', ['watch'], function(){
+
+});

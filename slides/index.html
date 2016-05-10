@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Javascript &amp; jQuery</h1>
+					<h2>A Short Course</h2>
+				</section>
+				<section>
+					<h1>JavaScript History</h1>
+					<ul>
+						<li class="fragment">Developed by Brendan Eich for Netscape in 1995</li>
+						<li class="fragment">Standardized in 1997 as ECMA-262 and name ECMAScript</li>
+						<li class="fragment">Modern Browsers largely conform to ECMAScript 3 & 5</li>
+						<li class="fragment">Requires a host environment
+							<ul>
+								<li>Browser (client-side)</li>
+								<li>NodeJs (server-side)</li>
+							</ul>
+						</li>
+						<li class="fragment">Dynamic, object-oriented, scripting language</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Why JavaScript?</h1>
+					<h2>Layers of Web Development</h2>
+					<ul>
+						<li>Content</li>
+						<li>Presentation</li>
+						<li>Interactivity</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Uses</h1>
+					<ul>
+						<li>Interactivity</li>
+						<li>Animation</li>
+						<li>Ajax</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Examples</h1>
+				</section>
+				<section>
+					<h1>Brackets</h1>
+					<h2>Intro</h2>
+					<ul>
+						<li>Built by Adobe</li>
+						<li>Free and Open Source</li>
+						<li>Numerous Extensions</li>
+						<li>Live-Preview</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Html Template</h1>
+					<p>Create a barebones Html file</p>
+				</section>
+				<section>
+					<h1>How to Apply JavaScript</h1>
+					<ul>
+						<li>Inline</li>
+						<li>Embedded</li>
+						<li>External</li>
+					</ul>
+				</section>
+				<section>
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

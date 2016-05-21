@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply Js</title>
+    <!-- Embedded scripts can be placed within the head... -->
+    <script>
+        alert('Embbeded script in the head called.');
+    </script>
+</head>
+<body onload="alert('Inline script attached to the load event of the body element called.');">
+    <h1>Apply Javascript Demo</h1>
+    <a href="javascript:alert('Not called'); return false;">Link with javascript in href attribute.</a>
+    <a href="" onclick="alert('Inline script attached to onclick event'); return false;">Link with script assigned to onclick event.</a>
+    <!-- or within body -->
+    <script>
+        alert('Embbeded script in the body called');
+    </script>
+    <script src="js/external.js"></script>
+</body>
+</html>

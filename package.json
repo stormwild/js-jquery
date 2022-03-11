@@ -1,0 +1,31 @@
+{
+  "name": "js-jquery",
+  "version": "1.0.0",
+  "description": "Short course on Javascript and jQuery",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormwild/js-jquery.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery"
+  ],
+  "author": "Alexander R. Torrijos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stormwild/js-jquery/issues"
+  },
+  "homepage": "https://github.com/stormwild/js-jquery#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-sass": "^2.3.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  }
+}

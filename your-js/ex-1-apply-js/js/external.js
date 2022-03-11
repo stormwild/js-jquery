@@ -1,0 +1,1 @@
+alert('External script called');

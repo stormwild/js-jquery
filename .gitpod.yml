@@ -1,0 +1,77 @@
+vscode:
+  extensions:
+    - alexcvzz.vscode-sqlite
+    - arcanis.vscode-zipfs
+    - bradlc.vscode-tailwindcss
+    - csholmq.excel-to-markdown-table
+    - Dart-Code.dart-code
+    - Dart-Code.flutter
+    - dbaeumer.vscode-eslint
+    - Divlo.vscode-styled-jsx-languageserver
+    - DotJoshJohnson.xml
+    - eamodio.gitlens
+    - EditorConfig.EditorConfig
+    - eg2.vscode-npm-script
+    - esbenp.prettier-vscode
+    - fernandoescolar.vscode-solution-explorer
+    - firefox-devtools.vscode-firefox-debug
+    - firsttris.vscode-jest-runner
+    - formulahendry.dotnet-test-explorer
+    - ghmcadams.lintlens
+    - gitpod.gitpod-desktop
+    - golang.go
+    - GraphQL.vscode-graphql
+    - hashicorp.terraform
+    - hbenl.vscode-test-explorer
+    - humao.rest-client
+    - James-Yu.latex-workshop
+    - kavod-io.vscode-jest-test-adapter
+    - lextudio.restructuredtext
+    - ms-azuretools.vscode-docker
+    - ms-dotnettools.csharp
+    - ms-mssql.data-workspace-vscode
+    - ms-mssql.mssql
+    - ms-mssql.sql-database-projects-vscode
+    - ms-python.python
+    - ms-python.vscode-pylance
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+    - ms-vscode-remote.remote-containers
+    - ms-vscode-remote.remote-ssh
+    - ms-vscode-remote.remote-ssh-edit
+    - ms-vscode-remote.remote-wsl
+    - ms-vscode.cpptools
+    - ms-vscode.powershell
+    - ms-vscode.test-adapter-converter
+    - ms-vsliveshare.vsliveshare
+    - msjsdiag.debugger-for-chrome
+    - Orta.vscode-jest
+    - pflannery.vscode-versionlens
+    - redhat.java
+    - redhat.vscode-xml
+    - redhat.vscode-yaml
+    - ritwickdey.live-sass
+    - ritwickdey.LiveServer
+    - Roshan.ulka-language-support
+    - silvenon.mdx
+    - SonarSource.sonarlint-vscode
+    - tomoki1207.pdf
+    - VisualStudioExptTeam.vscodeintellicode
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-java-pack
+    - vscjava.vscode-java-test
+    - vscjava.vscode-maven
+    - vscode-icons-team.vscode-icons
+    - vsls-contrib.gistfs
+    - wayou.vscode-todo-highlight
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
